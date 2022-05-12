@@ -1,0 +1,40 @@
+body h3 {
+    text-align: center;
+}
+#header {
+    background-color: white;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px 30px;
+    font-weight: 300;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 300px;
+    background-color: lightgray;
+    padding: 20px 30px;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+label, input {
+    margin: 5px;
+    height: 20px;
+}
+.wrapper div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+#generateBtn, #clearBtn {
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#generateBtn {
+    background-color: green;
+    color: whitesmoke;
+}
+#clearBtn {
+background-color: grey;
+color: whitesmoke;
+}
